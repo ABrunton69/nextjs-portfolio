@@ -1,0 +1,8 @@
+.setcolours {
+    background-color: #4F46E5;
+    transition: background-color 0.3s;
+}
+
+.setcolours:hover {
+    background-color: #5c55e7;
+}

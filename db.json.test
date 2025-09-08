@@ -1,0 +1,291 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Artisan Grove E-commerce Platform",
+            "description": "A full-stack e-commerce site for handcrafted goods, built with React and Node.js.",
+            "projectUrl": "https://placehold.co/600x400/FFDDC1/8B5E3C?text=Artisan+Grove",
+            "imageUrl": "https://placehold.co/600x400/FFDDC1/8B5E3C?text=Artisan+Grove",
+            "overview": "Artisan Grove is a modern, responsive e-commerce platform designed to connect artisans with customers. Built using the MERN stack (MongoDB, Express, React, Node.js), it features a clean user interface, secure payment processing, and a comprehensive admin dashboard for managing products and orders.",
+            "overview_points": [
+                "Developed with React for a dynamic front-end experience.",
+                "Node.js and Express.js for a robust back-end API.",
+                "MongoDB for flexible and scalable data storage.",
+                "Integrated Stripe for secure payment processing."
+            ],
+            "key_features": [
+                "User authentication with JWT (JSON Web Tokens).",
+                "Product search, filtering, and pagination.",
+                "Shopping cart and order management system.",
+                "Admin panel for inventory and user management."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "FitTrack Mobile App",
+            "description": "A cross-platform mobile fitness tracker developed using Flutter and Firebase.",
+            "projectUrl": "https://placehold.co/600x400/D4EDDA/155724?text=FitTrack",
+            "imageUrl": "https://placehold.co/600x400/D4EDDA/155724?text=FitTrack",
+            "overview": "FitTrack is a mobile application designed to help users log their workouts, track their progress, and set fitness goals. Developed with Flutter for a seamless experience on both iOS and Android from a single codebase. Firebase is used for real-time data synchronization, authentication, and backend services.",
+            "overview_points": [
+                "Built with Flutter for native performance on iOS and Android.",
+                "Utilizes Firebase for backend services including Authentication and Firestore.",
+                "Features clean, intuitive UI/UX design.",
+                "Designed for a university group project in mobile development."
+            ],
+            "key_features": [
+                "Personalized workout logging.",
+                "Progress visualization with charts and graphs.",
+                "Goal setting and achievement notifications.",
+                "Social sharing of workout summaries."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Global Sales Data Dashboard",
+            "description": "An interactive data visualization dashboard using Python (Dash) and Plotly.",
+            "projectUrl": "https://placehold.co/600x400/CCE5FF/004085?text=Sales+Dashboard",
+            "imageUrl": "https://placehold.co/600x400/CCE5FF/004085?text=Sales+Dashboard",
+            "overview": "This project is a web-based dashboard that visualizes global sales data from a sample dataset. It was built using Python with the Dash framework and Plotly for creating interactive charts and graphs. The application allows users to filter data by region, product category, and date range to gain business insights.",
+            "overview_points": [
+                "Developed using Python, Pandas for data manipulation, and Dash for the web interface.",
+                "Interactive charts created with Plotly Express.",
+                "Deploys as a standalone web application.",
+                "Processes and cleans data from a large CSV file."
+            ],
+            "key_features": [
+                "Dynamic filtering of sales data.",
+                "Interactive map visualization of sales by country.",
+                "Time-series analysis of sales trends."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Recipe Finder REST API",
+            "description": "A RESTful API for searching and retrieving recipes, built with ASP.NET Core.",
+            "projectUrl": "https://placehold.co/600x400/F8D7DA/721C24?text=Recipe+API",
+            "imageUrl": "https://placehold.co/600x400/F8D7DA/721C24?text=Recipe+API",
+            "overview": "The Recipe Finder API is a backend service that provides structured recipe data to client applications. Built with C# and ASP.NET Core, it follows REST principles and is documented using Swagger/OpenAPI. The API allows searching for recipes by ingredients, cuisine type, and dietary restrictions.",
+            "overview_points": [
+                "Built with C# and the ASP.NET Core Web API framework.",
+                "Connected to a PostgreSQL database using Entity Framework Core.",
+                "Comprehensive API documentation with Swagger.",
+                "Focus on clean architecture and testability."
+            ],
+            "key_features": [
+                "CRUD operations for recipes and ingredients.",
+                "Advanced search and filtering endpoints.",
+                "User authentication for submitting new recipes."
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Smart Home Hub",
+            "description": "A custom smart home controller using a Raspberry Pi and Python.",
+            "projectUrl": "https://placehold.co/600x400/fff3cd/856404?text=Smart+Home",
+            "imageUrl": "https://placehold.co/600x400/fff3cd/856404?text=Smart+Home",
+            "overview": "A custom smart home controller that integrates various smart devices (lights, thermostats, sensors) under one unified web interface. Built with Python (Flask) on a Raspberry Pi, it uses the MQTT protocol for lightweight device communication.",
+            "overview_points": [
+                "Built on a Raspberry Pi 4.",
+                "Backend developed with Python and the Flask framework.",
+                "Uses MQTT for real-time device communication.",
+                "Stores device data in a local SQLite database."
+            ],
+            "key_features": [
+                "Centralized dashboard to control all connected devices.",
+                "Automation engine for creating rules (e.g., 'turn on lights at sunset').",
+                "Real-time logging and charting of sensor data."
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Real-Time Chat Application",
+            "description": "A modern chat application with private and group messaging features using Web Sockets.",
+            "projectUrl": "https://placehold.co/600x400/d1ecf1/0c5460?text=Chat+App",
+            "imageUrl": "https://placehold.co/600x400/d1ecf1/0c5460?text=Chat+App",
+            "overview": "This is a real-time chat application built with Node.js, Express, and Socket.IO. It enables instant bidirectional communication between clients and the server, allowing for features like typing indicators and live user lists. The front-end is built with vanilla JavaScript, HTML, and CSS.",
+            "overview_points": [
+                "Backend powered by Node.js and Express.",
+                "Real-time functionality implemented with Socket.IO.",
+                "Simple and clean front-end with no frameworks.",
+                "Supports multiple chat rooms and private messaging."
+            ],
+            "key_features": [
+                "User authentication and session management.",
+                "Live 'user is typing...' indicators.",
+                "Display of online users in each chat room.",
+                "Persistent message history."
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Weather Dashboard",
+            "description": "A dynamic weather dashboard displaying current and forecasted weather using Vue.js.",
+            "projectUrl": "https://placehold.co/600x400/e2e3e5/383d41?text=Weather+App",
+            "imageUrl": "https://placehold.co/600x400/e2e3e5/383d41?text=Weather+App",
+            "overview": "A single-page application (SPA) built with Vue.js that fetches and displays weather data from a third-party API. It provides up-to-date weather information for any city in the world, featuring a clean, responsive design suitable for both desktop and mobile.",
+            "overview_points": [
+                "Developed with the progressive JavaScript framework Vue.js.",
+                "Uses Axios for making asynchronous HTTP requests to the OpenWeatherMap API.",
+                "Fully responsive design implemented with CSS Flexbox and Media Queries.",
+                "State management handled with Vuex."
+            ],
+            "key_features": [
+                "Search for weather by city name.",
+                "Displays current weather and a 5-day forecast.",
+                "Saves user's favorite locations to local storage.",
+                "Interactive map integration to show city location."
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Blog Platform CMS",
+            "description": "A content management system for creating and managing a personal blog using PHP and Laravel.",
+            "projectUrl": "https://placehold.co/600x400/f5c6cb/721c24?text=Blog+CMS",
+            "imageUrl": "https://placehold.co/600x400/f5c6cb/721c24?text=Blog+CMS",
+            "overview": "A full-featured blog platform developed from scratch using the Laravel PHP framework. It includes a secure admin panel for writing posts, managing categories, and moderating comments. The application follows MVC principles and uses a MySQL database for data persistence.",
+            "overview_points": [
+                "Built with PHP and the Laravel framework.",
+                "Uses MySQL as the relational database.",
+                "Front-end templates built with Blade templating engine.",
+                "Follows RESTful conventions for resource management."
+            ],
+            "key_features": [
+                "Secure user authentication and role-based access control (Admin, Author).",
+                "A WYSIWYG editor for creating and editing blog posts.",
+                "Full CRUD functionality for posts, categories, and tags.",
+                "Public-facing comment system with moderation."
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Cloud File Storage Service",
+            "description": "A web app for uploading, storing, and sharing files securely using AWS S3.",
+            "projectUrl": "https://placehold.co/600x400/90cdf4/2c5282?text=Cloud+Storage",
+            "imageUrl": "https://placehold.co/600x400/90cdf4/2c5282?text=Cloud+Storage",
+            "overview": "This project is a web application that interfaces with Amazon S3 for secure, scalable object storage. The backend, built with Python and Django, handles user authentication and manages file metadata, while the Boto3 SDK communicates directly with S3 for file operations.",
+            "overview_points": [
+                "Python and Django for the backend framework.",
+                "Integrates with Amazon Web Services (AWS) S3.",
+                "Uses the Boto3 library for AWS interaction.",
+                "Manages user accounts and permissions."
+            ],
+            "key_features": [
+                "Secure file uploads with progress indicators.",
+                "User-specific storage quotas and directories.",
+                "Generate secure, time-limited links for file sharing.",
+                "Directory and file management through the web interface."
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Indie Game in Unity",
+            "description": "A 2D platformer game developed with the Unity engine and C#.",
+            "projectUrl": "https://placehold.co/600x400/a3bffa/002766?text=Unity+Game",
+            "imageUrl": "https://placehold.co/600x400/a3bffa/002766?text=Unity+Game",
+            "overview": "A personal game development project created in Unity, scripted entirely in C#. The game is a classic 2D platformer featuring multiple levels, unique enemy types, and physics-based puzzles. All art assets and sound effects were created by me or sourced from royalty-free libraries.",
+            "overview_points": [
+                "Developed in the Unity Game Engine.",
+                "All game logic scripted in C#.",
+                "Features custom 2D sprite animations.",
+                "Includes level design, sound design, and UI elements."
+            ],
+            "key_features": [
+                "Responsive player character controller (movement, jumping).",
+                "Tile-based level system for easy world-building.",
+                "Collectibles, scoring system, and save points.",
+                "Simple enemy AI with pathfinding."
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Expense Tracker PWA",
+            "description": "A mobile-friendly Progressive Web App for tracking expenses that works offline.",
+            "projectUrl": "https://placehold.co/600x400/b8daff/004085?text=Expense+Tracker",
+            "imageUrl": "https://placehold.co/600x400/b8daff/004085?text=Expense+Tracker",
+            "overview": "A Progressive Web App (PWA) built with Angular that allows users to track daily expenses. It's designed to be installable on mobile devices and functions seamlessly offline thanks to a service worker that caches application assets and data.",
+            "overview_points": [
+                "Built with Angular and TypeScript.",
+                "Styled with Angular Material components for a consistent UI.",
+                "Implemented as a PWA with a service worker and web app manifest.",
+                "Uses Chart.js for data visualization."
+            ],
+            "key_features": [
+                "Full offline functionality.",
+                "Add, edit, and delete expenses.",
+                "Categorize spending and view summary reports.",
+                "Interactive charts showing spending habits over time."
+            ]
+        },
+        {
+            "id": 12,
+            "title": "CI/CD Pipeline Automation",
+            "description": "A complete CI/CD pipeline for a sample web application using Jenkins and Docker.",
+            "projectUrl": "https://placehold.co/600x400/c3e6cb/155724?text=CI/CD+Pipeline",
+            "imageUrl": "https://placehold.co/600x400/c3e6cb/155724?text=CI/CD+Pipeline",
+            "overview": "This project demonstrates a fully automated Continuous Integration and Continuous Deployment pipeline. It uses Git for version control, Jenkins for automation, Docker for containerization, and deploys a simple Node.js application to a Linux server with zero downtime.",
+            "overview_points": [
+                "Uses Jenkins as the automation server.",
+                "Containerizes the application using Docker and Docker Compose.",
+                "Integrates with GitHub via webhooks for automated builds.",
+                "Deploys to a cloud server running Linux."
+            ],
+            "key_features": [
+                "Automated builds triggered on every `git push`.",
+                "Automated execution of unit and integration tests.",
+                "Builds and pushes Docker images to a private registry.",
+                "Automated deployment script for updating the live service."
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Portfolio Website Generator",
+            "description": "A static site generator that builds a personal portfolio from a JSON file.",
+            "projectUrl": "https://placehold.co/600x400/bee5eb/1e4e5e?text=SSG+Portfolio",
+            "imageUrl": "https://placehold.co/600x400/bee5eb/1e4e5e?text=SSG+Portfolio",
+            "overview": "Built with Next.js and React, this project is a Static Site Generator (SSG) that reads project data from a simple JSON file and generates a fast, SEO-friendly, and fully-responsive portfolio website. It allows developers to quickly create and deploy a professional portfolio without writing any frontend code.",
+            "overview_points": [
+                "Built with Next.js for Static Site Generation (SSG).",
+                "Frontend created with React and TypeScript.",
+                "Data is sourced from a local JSON configuration file.",
+                "Styled with Tailwind CSS for rapid UI development."
+            ],
+            "key_features": [
+                "Multiple theme options (light/dark mode).",
+                "Generates static HTML, CSS, and JS for maximum performance.",
+                "Contact form integration with a serverless function.",
+                "Optimized for high Lighthouse performance scores."
+            ]
+        },
+        {
+            "id": 14,
+            "title": "URL Shortener Service",
+            "description": "A backend service for creating shortened URLs, built with Go.",
+            "projectUrl": "https://placehold.co/600x400/f8d7da/721c24?text=URL+Shortener",
+            "imageUrl": "https://placehold.co/600x400/f8d7da/721c24?text=URL+Shortener",
+            "overview": "A high-performance URL shortening service similar to bit.ly, built with the Go programming language and the Gin web framework. It takes a long URL and generates a unique, short code that redirects to the original URL. Redis is used for fast lookups of short codes.",
+            "overview_points": [
+                "Written in Go for high concurrency and performance.",
+                "Uses the Gin framework for routing.",
+                "Integrates with Redis for caching and fast key-value storage.",
+                "Provides a simple RESTful API."
+            ],
+            "key_features": [
+                "API endpoint to create a new short URL.",
+                "Redirection logic for handling shortened links.",
+                "Custom short URL generation.",
+                "Tracking of click counts for each link."
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Project Placeholder",
+            "description": "This project is currently under development. Details coming soon.",
+            "projectUrl": "https://placehold.co/600x400/6c757d/ffffff?text=Coming+Soon",
+            "imageUrl": "https://placehold.co/600x400/6c757d/ffffff?text=Coming+Soon",
+            "overview": "This is a placeholder for a future project. More information will be available once the initial development and planning phases are complete. Stay tuned for updates!",
+            "overview_points": [],
+            "key_features": []
+        }
+    ]
+}

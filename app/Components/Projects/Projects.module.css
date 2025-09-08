@@ -1,0 +1,39 @@
+.projectsContainer {
+  transition: max-height 0.7s ease-in-out;
+  overflow: hidden;
+  position: relative; 
+}
+
+
+.projectsCollapsed {
+  max-height: 480px;
+}
+
+
+.projectsExpanded {
+  max-height: 2000px; 
+}
+
+
+@media (min-width: 768px) {
+  .projectsCollapsed {
+    max-height: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projectsCollapsed {
+    max-height: 520px;
+  }
+}
+
+.projectsContainer:not(.projectsExpanded)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px; 
+  background: linear-gradient(to bottom, transparent, var(--background-color));
+  pointer-events: none; 
+}

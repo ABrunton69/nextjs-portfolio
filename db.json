@@ -1,0 +1,134 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Flight Path Generator App",
+            "description": "A shortest path generator for small planes using C# and Windows Forms",
+            "projectUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=Flight+Paths",
+            "imageUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=Flight+Paths",
+            "overview": "The Flight Path Generator App is a Windows Forms application written in C# that helps small aircraft pilots and planners determine the shortest and most efficient flight paths between airports. The app uses distance between coordinates to calculate optimal routes, taking into account various constraints and user inputs.",
+            "overview_points": [
+                "Built with C# and Windows Forms",
+                "Created for my A-Level Computer Science NEA",
+                "User-friendly interface for entering airports and waypoints",
+                "Visualizes the calculated flight path on a map"
+            ],
+            "key_features": [
+                "Interactive user input for selecting start and end points, fuel quantity and plane size",
+                "Save flight plan as CSV",
+                "Responsive UI"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Itinerary Planner App",
+            "description": "A Itinerary manager for a company who plans and sets activities using Java",
+            "projectUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=Itinerary+Manager",
+            "imageUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=Itinerary+Manager",
+            "overview": "This project was built for my Object Oriented Programming module in the first year of University, it takes into account the user of objects for the itinerary and the activities and uses classes to perform calculations, saving details to text files and the graphical interface of the application.",
+            "overview_points": [
+                "Built with Java",
+                "Implements Swing (A graphical user interface library)",
+                "User-friendly interface for reading itinerary data"
+            ],
+            "key_features": [
+                "Performs numerical calculations on currency values",
+                "Exports itinerary data to text files to store data",
+                "A command line interface for entering new activities and itinerary's"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "SQL Portfolio",
+            "description": "A full document showing proof of knowledge on SQL queries in SQL Server",
+            "projectUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=SQL+Portfolio",
+            "imageUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=SQL+Portfolio",
+            "overview": "This document shows proof of understanding of SQL Server, it shows my understanding of using queries on a 'superhero' database example given to me by University",
+            "overview_points": [
+                "Contains SQL queries for selecting and manipulating data from a database",
+                "Provides explanations of each query used and what they are for",
+                "Created as a guide for developers wanting to use the database in their applications"
+            ],
+            "key_features": []
+        },
+        {
+            "id": 4,
+            "title": "N8N Workflows",
+            "description": "This project is awaiting upload.",
+            "projectUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=N8N+Workflows",
+            "imageUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=N8N+Workflows",
+            "overview": "N8N is an open source AI workflow automation tool that I host on my debian linux server. It allows me to create the following demonstrations that remove manual tasks I have to do in day to day life",
+            "overview_points": [
+                "Github tracker that tracks when I or another use pushes to my git account, records details of the push and posts it to a discord channel",
+                "RSS Tracker that tracks https://krebsonsecurity.com/ & https://thehackernews.com/ for new articles, it gives a brief overview of the article and stores it in a google sheet after sending it to discord"
+            ],
+            "key_features": []
+        },
+        {
+            "id": 5,
+            "title": "Placeholder",
+            "description": "Placeholder",
+            "projectUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=Project",
+            "imageUrl": "https://placehold.co/600x400/E0E7FF/1F2937?text=Project",
+            "overview": "Placeholder",
+            "overview_points": [],
+            "key_features": []
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "html5",
+            "icon": "fa-brands fa-html5",
+            "color": "#E34F26"
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "icon": "fa-brands fa-css3-alt",
+            "color": "#1572B6"
+        },
+        {
+            "id": 3,
+            "name": "Javascript",
+            "icon": "fa-brands fa-js",
+            "color": "#F7DF1E"
+        },
+        {
+            "id": 4,
+            "name": "Typescript",
+            "icon": "fa-solid fa-code",
+            "color": "#3178C6"
+        },
+        {
+            "id": 5,
+            "name": "Python",
+            "icon": "fa-brands fa-python",
+            "color": "#3776AB"
+        },
+        {
+            "id": 6,
+            "name": "C#",
+            "icon": "fa-solid fa-code",
+            "color": "#239120"
+        },
+        {
+            "id": 7,
+            "name": "Java",
+            "icon": "fa-brands fa-java",
+            "color": "#007396"
+        },
+        {
+            "id": 8,
+            "name": "Tailwind",
+            "icon": "fa-solid fa-wind",
+            "color": "#38B2AC"
+        },
+        {
+            "id": 9,
+            "name": "React",
+            "icon": "fa-brands fa-react",
+            "color": "#61DAFB"
+        }
+    ]
+}
