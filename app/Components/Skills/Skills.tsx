@@ -19,7 +19,7 @@ type Skill = {
 };
 
 async function fetchSkills(): Promise<Skill[]> {
-  const res = await fetch("https://n8n.aramthe.dev/webhook/skills-data");
+  const res = await fetch("http://147.93.84.98:5000/api/skills");
   if (!res.ok) {
     throw new Error("Failed to fetch projects");
   }

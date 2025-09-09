@@ -29,7 +29,7 @@ type Project = {
 //   return res.json();
 // }
 async function fetchProjects(): Promise<Project[]> {
-  const res = await fetch("https://n8n.aramthe.dev/webhook/projects-data");
+  const res = await fetch("http://147.93.84.98:5000/api/projects");
   if (!res.ok) {
     throw new Error("Failed to fetch projects");
   }
