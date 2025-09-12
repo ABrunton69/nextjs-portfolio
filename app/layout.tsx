@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -41,6 +42,7 @@ export default function RootLayout({
         >
           <NavBar />
           <main className="container mx-auto px-6">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

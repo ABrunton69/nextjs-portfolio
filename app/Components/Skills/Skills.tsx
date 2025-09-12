@@ -1,69 +1,67 @@
-import React from "react";
-import { use } from "react";
-import SkillIcon from "./SkillIcon";
-import {
-  faHtml5,
-  faCss3Alt,
-  faJs,
-  faPython,
-  faJava,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
-import { faCode, faWind } from "@fortawesome/free-solid-svg-icons";
+"use client";
 
-type Skill = {
-  id: number;
-  name: string;
-  icon: string;
-  color: string;
+// src/components/Skills.tsx
+import React from "react";
+import { motion, Variants } from "framer-motion";
+import SkillCard from "./SkillCard";
+import { skillsData } from "./SkillsData"; // Adjust path if needed
+
+// Framer Motion variants for animations
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
 };
 
-async function fetchSkills(): Promise<Skill[]> {
-  const res = await fetch("http://147.93.84.98:5000/api/skills");
-  if (!res.ok) {
-    throw new Error("Failed to fetch projects");
-  }
-  return res.json();
-}
+const itemVariants: Variants = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 100 },
+  },
+};
 
-const iconMap = {
-  "fa-brands fa-html5": faHtml5,
-  "fa-brands fa-css3-alt": faCss3Alt,
-  "fa-brands fa-js": faJs,
-  "fa-solid fa-code": faCode,
-  "fa-brands fa-python": faPython,
-  "fa-brands fa-java": faJava,
-  "fa-brands fa-react": faReact,
-  "fa-solid fa-wind": faWind,
-} as const;
-
-type IconKey = keyof typeof iconMap;
-
-const Skills = () => {
-  const skills = use(fetchSkills());
+const Skills: React.FC = () => {
+  // This variable is now strongly typed as SkillCategory[]
+  const categorizedSkills = skillsData;
 
   return (
-    <>
-      <div className="mt-20 text-center py-20 bg-[#1b2129] rounded-xl">
-        <div className="text-3xl font-bold pb-2 inline-block ">
-          <h1>Technical Skills</h1>
+    <section id="skills" className="mt-20 w-full py-20 bg-[#1b2129] rounded-xl">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold mb-2">Technical Skills</h2>
         </div>
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-4">
-          {skills.map((technical_skill) => (
-            <div
-              key={technical_skill.id}
-              className="transform transition-transform duration-300 hover:scale-125"
-            >
-              <SkillIcon
-                _icon={technical_skill.icon as IconKey}
-                _color={technical_skill.color}
-              />
-              <p className="font-bold">{technical_skill.name}</p>
+
+        <div className="space-y-12">
+          {categorizedSkills.map((category) => (
+            <div key={category.category}>
+              <h3 className="text-2xl font-semibold text-gray-300 mb-6 text-center md:text-left">
+                {category.category}
+              </h3>
+              <motion.div
+                className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6"
+                variants={containerVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                {category.skills.map((skill) => (
+                  // This is likely what you have, which is incorrect
+                  <motion.div key={skill.name} variants={itemVariants}>
+                    <SkillCard name={skill.name} icon={skill.icon} />
+                  </motion.div>
+                ))}
+              </motion.div>
             </div>
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

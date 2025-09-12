@@ -14,6 +14,4 @@ export const SendToEmail = async (data: FormData) => {
         subject: `New contact form from: ${data.name}`,
         react: EmailTemplate(data),
     });
-
-    
 }
