@@ -57,7 +57,7 @@ const Contact: FC = () => {
           <h2 className="text-4xl font-bold text-white mb-4">Get In Touch</h2>
           <p className="text-lg text-gray-400">
             Have a question or want to work together? Leave your details below,
-            and I'll get back to you.
+            and I&apos;ll get back to you.
           </p>
         </div>
 

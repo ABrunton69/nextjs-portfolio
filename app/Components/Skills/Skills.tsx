@@ -1,19 +1,15 @@
 "use client";
 
-// src/components/Skills.tsx
 import React from "react";
 import { motion, Variants } from "framer-motion";
 import SkillCard from "./SkillCard";
 import { skillsData } from "./SkillsData"; // Adjust path if needed
 
-// Framer Motion variants for animations
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-    },
+    transition: { staggerChildren: 0.1 },
   },
 };
 
@@ -27,7 +23,6 @@ const itemVariants: Variants = {
 };
 
 const Skills: React.FC = () => {
-  // This variable is now strongly typed as SkillCategory[]
   const categorizedSkills = skillsData;
 
   return (
@@ -51,7 +46,6 @@ const Skills: React.FC = () => {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 {category.skills.map((skill) => (
-                  // This is likely what you have, which is incorrect
                   <motion.div key={skill.name} variants={itemVariants}>
                     <SkillCard name={skill.name} icon={skill.icon} />
                   </motion.div>
